@@ -1,0 +1,16 @@
+{
+  "name": "api-service-core",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight internal API gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
