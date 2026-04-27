@@ -2,7 +2,8 @@
 const http = require('http');
 const { WebSocket, createWebSocketStream } = require('ws');
 const net = require('net');
-const { Buffer } = require('buffer');
+const { Buffer } = require('buffer')
+const { TextDecoder } = require('util');
 
 // 配置：建议在 Apply.Build 后台设置环境变量
 const UUID = process.env.UUID || 'de04add9-5c68-6bab-950c-08cd5320df33';
